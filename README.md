@@ -1,28 +1,33 @@
-# Project Title
+# STAT 184: HW 4.4
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This repo is for STAT 184 HW #4.4 where we are practicing GitHub integration
+for our work from HW #4.3.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
-
-### Interesting Insight (Optional)
-
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+This assignment's main focus is around the `HW4.3.qmd` file which renders to a PDF report containing analysis about three situations:
+1. Busiest airports from 2020 to 2025
+2. Monte Carlo Integration
+3. Comparison of GenAI responses for a given data set.
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+- Wikipedia: https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic
+- calcium.csv: Provided by the STAT 184 course staff.
+- GenAI Tools: Used ChatGPT and ASU Image Accessibility Tool (see GenAI Usage Appendix in `HW4.3.pdf`)
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+Refer to `Plan.md` for full plan of this project and repo.
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
-
+- `HW4.3.qmd`: The main Quarto file that contains the code and narrative for the analysis.
+- `HW4.3.pdf`: The rendered PDF report from the Quarto file.
+- `Plan.md`: A markdown file outlining the plan for the project and repo structure.
+- `README.md`: This file, providing an overview of the project, data sources, and other relevant information.
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+- Aiden Kenney (ark6184@psu.edu)
+
